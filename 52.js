@@ -7,9 +7,9 @@ function uefaEuro2016(teams, scores) {
   let te = teams[1];
 
   if (scores[0] > scores[1]) {
-    return `At match ${t} - ${te}, Germany won!`;
+    return `At match ${t} - ${te}, ${t} won!`;
   } else if (scores[0] < scores[1]) {
-    return `At match ${t} - ${te}, Italy won!`;
+    return `At match ${t} - ${te}, ${te} won!`;
   } else if (scores[0] == scores[1]) {
     return `At match ${t} - ${te}, teams played draw.`;
   }
