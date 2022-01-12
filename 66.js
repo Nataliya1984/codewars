@@ -9,5 +9,5 @@
 // Go show some truth who's boss!
 
 function ifChuckSaysSo() {
-  return false;
+  return !true;
 }
